@@ -1,0 +1,61 @@
+name: CrytexCore
+author: [ Sunyan ]
+version: 1.0
+main: com.core.crytex.Main
+description: Crytex Core
+commands:
+  speed:
+    description: Gives player the speed effect! 
+  strength:
+    description: Gives player the strength effect!
+  nightvision:
+    description: Gives player the night vision effect!
+    aliases: [nv]
+  clearchat:
+    description: Clears the chat!
+    aliases: [cc]
+  staffchat:
+    description: Chating in staff chat!
+    aliases: [sc]
+  website:
+    description: Shows server website!
+  haste:
+    description: Gives player the haste effect!
+  vote:
+    description: Shows server vote links!
+  mutechat:
+    description: Mutes the chat!
+  anvil:
+    description: Opens anvil inventory!
+  nofall:
+    description: Gives player the no fall effect!
+  discord:
+    description: Gives you the discord link!
+  twitter:
+    description: Gives you the twitter link!
+  itemrename:
+    description: Change's your item name!
+    aliases: [irename]
+permissions:
+  cc.speed:
+    description: allows player to use /speed
+    default: op
+  cc.strength:
+    description: allows player to use /strength
+    default: op
+  cc.nightvision:
+    default: op
+  cc.mutechat:
+    default: op
+  cc.mutechat.bypass:
+    default: op
+  cc.staffchat:
+    default: op
+  cc.nofall:
+    default: op
+  cc.haste:
+    default: op
+  cc.clearchat:
+    default: op
+  cc.itemrename:
+    default: op
